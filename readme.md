@@ -7,15 +7,11 @@ If you try to open raw version of any HTML, CSS or JS file in a web browser dire
 
 ## Usage
 
-In order to use it, just prepend this fragment to the URL of any HTML file: **[https://htmlpreview.github.io/?](https://htmlpreview.github.io/?)** e.g.:
+In order to use it, just prepend this fragment to the URL of any HTML file: **[https://adithsuresh5.github.io/htmlpreview/?](https://adithsuresh5.github.io/htmlpreview/?)** e.g.:
 
- - https://htmlpreview.github.io/?https://github.com/twbs/bootstrap/gh-pages/2.3.2/index.html
- - https://htmlpreview.github.io/?https://github.com/documentcloud/backbone/blob/master/examples/todos/index.html
+ - https://adithsuresh5.github.io/htmlpreview/?https://github.com/twbs/bootstrap/gh-pages/2.3.2/index.html
+ - https://adithsuresh5.github.io/htmlpreview/?https://github.com/documentcloud/backbone/blob/master/examples/todos/index.html
 
 What it does is: load HTML using CORS proxy, then process all links, frames, scripts and styles, and load each of them using CORS proxy, so they can be evaluted by the browser.
 
 **GitHub & BitBucket HTML Preview** was tested under the latest Google Chrome and Mozilla Firefox.
-
-## License
-
-&copy; 2019 Jerzy Głowacki under Apache License 2.0.
